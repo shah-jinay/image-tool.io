@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tw:init": "tailwindcss init -p"
+    "tw:init": "tailwindcss init -p",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "file-saver": "^2.0.5",
