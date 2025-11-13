@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* extras for nicer scrollbars and focus rings */
+:root { --ring: 0 0% 9%; }
+* { scrollbar-width: thin; }
+::-webkit-scrollbar { height: 8px; width: 8px; }
+::-webkit-scrollbar-thumb { background: #00000022; border-radius: 999px; }
+:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
